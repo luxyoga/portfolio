@@ -8,11 +8,11 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Lux Yogasegaran - UX Designer & Software Engineer",
-  description: "Portfolio of Lux Yogasegaran, a multidisciplinary designer, developer, and certified project manager with 7+ years of experience creating accessible digital experiences.",
+  title: "Lux Yoga - UX Designer & Software Engineer",
+  description: "Web Portfolio for Lux Yoga, a multidisciplinary designer, developer, and certified project manager with 7+ years of experience creating accessible digital experiences.",
   icons: {
-    icon: '/favicon.svg',
-    apple: '/favicon.svg',
+    icon: '/favicon.png',
+    apple: '/favicon.png',
   },
 };
 

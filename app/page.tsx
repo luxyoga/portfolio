@@ -287,8 +287,8 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </a>
-            </div>
+          </a>
+        </div>
           </div>
           </section>
 
@@ -296,8 +296,8 @@ export default function Home() {
           <section className="mb-16">
             <a 
               href="/resume.html" 
-              target="_blank" 
-              rel="noopener noreferrer"
+          target="_blank"
+          rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-m font-semibold text-[#94A3B8] hover:text-[#5DE7D4] transition-colors duration-300"
             >
               View Full Resume
