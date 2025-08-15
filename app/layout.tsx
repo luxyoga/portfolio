@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Lux Yoga - UX Designer & Software Engineer",
+  title: "Lux Yoga - Project Manager & Software Engineer",
   description: "Web Portfolio for Lux Yoga, a multidisciplinary designer, developer, and certified project manager with 7+ years of experience creating accessible digital experiences.",
   icons: {
     icon: '/favicon.png',

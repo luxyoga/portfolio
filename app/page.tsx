@@ -85,8 +85,8 @@ export default function Home() {
       <header className="lg:hidden block w-full bg-[#0F172A]">
         <div className="px-6 py-12">
           <h1 className="text-4xl font-bold text-white mb-2">Lux Yoga</h1>
-          <p className="text-xl text-white mb-4">UX Designer & Software Engineer</p>
-          <p className="text-m text-[#94A3B8] mb-6">I build accessible, pixel-perfect digital experiences for the web and mobile platforms.</p>
+          <p className="text-lg sm:text-xl text-white mb-4 whitespace-nowrap">Project Manager & Software Engineer</p>
+          <p className="text-m text-[#94A3B8] mb-6">I help plan and build accessible, performant, digital experiences for web and mobile.</p>
           <div className="flex gap-4 text-2xl text-[#94A3B8]">
             <a href="https://www.linkedin.com/in/luxyoga/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FaLinkedin /></a>
             <a href="https://www.instagram.com/lux.productdesign/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FaInstagram /></a>
@@ -102,8 +102,8 @@ export default function Home() {
         <aside className="hidden lg:flex flex-col fixed left-0 top-0 h-full w-[40vw] max-w-[700px] px-32 z-10 backdrop-blur-md bg-transparent">
           <div className="flex flex-col h-full ml-4" style={{ paddingTop: '6rem' }}>
             <h1 className="text-5xl font-bold mb-2">Lux Yoga</h1>
-            <h2 className="text-xl font-medium text-white mb-8">UX Designer & Software Engineer</h2>
-            <p className="mb-14 text-m text-[#94A3B8]">I build accessible, pixel-perfect digital experiences for the web and mobile platforms.</p>
+            <h2 className="text-xl font-medium text-white mb-8 whitespace-nowrap">Project Manager & Software Engineer</h2>
+            <p className="mb-14 text-m text-[#94A3B8]">I help plan and build accessible, performant, digital experiences for web and mobile.</p>
             <nav className="flex flex-col gap-8 mt-8">
               {menuItems.map((item) => (
                 <button
@@ -149,16 +149,13 @@ export default function Home() {
             <section id="about" ref={aboutRef} className="mb-16">
               <h2 className="lg:hidden sticky top-0 z-30 py-2 text-sm font-bold text-white mb-2 tracking-widest">ABOUT</h2>
               <p className="text-m text-[#94A3B8] mb-4">
-              I'm a multidisciplinary designer, developer, and certified project manager with 7+
-              years of experience creating accessible digital experiences across diverse
-              industries. I am skilled at translating user research into performant web and mobile solutions
-              using WordPress, Shopify, and fully custom development. My experience spans
-              healthcare regulatory compliance, fundraising platforms, and e-commerce
-              systems. I blend technical expertise with user-centered design principles to
-              deliver meaningful digital products. 
+              I'm a multidisciplinary designer, developer, and certified project manager with 7+ years of experience creating accessible digital experiences across diverse industries. Originally from an Economics and Accounting background, I bring strong business acumen and strategic thinking to every project. I excel at managing complex projects from conception to launch, translating user research into performant solutions - consistently delivering projects on time and within scope.
               </p>
               <p className="text-m text-[#94A3B8] mb-4">
-                Looking ahead, I'm passionate about applying my skills to the EV and sustainability sectors, where thoughtful design can drive meaningful environmental impact.
+                I blend technical expertise with user-centered design principles to deliver meaningful digital products that meet both user needs and business objectives.
+              </p>
+              <p className="text-m text-[#94A3B8] mb-4">
+              Looking ahead, I'm passionate about creating experiences that are focused on reducing friction and solve real problems for users.
               </p>
               <p className="text-m text-[#94A3B8] mb-4">
                 In my spare time - I'm usually painting miniatures, playing TCGs, or reading.
@@ -176,13 +173,47 @@ export default function Home() {
             <div className="space-y-0">
               <div className="-mb-4">
 
-            
-              {/* Experience Entry 1 */}
+              {/* Experience Entry 1 - Krown */}
+              <a href="https://www.krownapp.com/" target="_blank" rel="noopener noreferrer" className="block">
+                <div className="group relative p-6 rounded-lg border border-transparent transition-all duration-300 hover:bg-white/[0.02] hover:backdrop-blur-sm hover:border-white/[0.08] hover:shadow-md hover:shadow-black/10">
+                  <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 lg:items-start">
+                    <div className="w-full lg:w-24 flex-shrink-0">
+                      <p className="text-xs text-[#94A3B8] lg:whitespace-nowrap lg:pt-1">2025 — PRESENT</p>
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex flex-col lg:flex-row lg:items-center gap-1 lg:gap-2 mb-2">
+                        <h3 className="text-m font-semibold group-hover:text-[#5DE7D4] transition-colors duration-300 lg:whitespace-nowrap">
+                          UX/UI Designer (Freelance)
+                        </h3>
+                        <span className="hidden lg:inline text-[#94A3B8]">·</span>
+                        <span className="text-m font-semibold group-hover:text-[#5DE7D4] transition-colors duration-300 flex items-center gap-1 lg:whitespace-nowrap">
+                          Krown
+                          <svg className="w-4 h-4 group-hover:text-[#5DE7D4] transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                          </svg>
+                        </span>
+                      </div>
+                      <p className="text-[#94A3B8] text-sm mb-3">
+                      Redesigned user experience for innovative location-based dating application, focusing on simplicity and minimal-click interactions to facilitate authentic romantic connections. Collaborated with development team to iterate on MVP designs based on real user feedback and research-backed design principles. Created design systems and visual interfaces that prioritize accessibility and user engagement.
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        <span className="px-3 py-1 text-xs bg-[#132D47]/60 text-[#59DDD5] rounded-full font-medium tracking-wide">Figma</span>
+                        <span className="px-3 py-1 text-xs bg-[#132D47]/60 text-[#59DDD5] rounded-full font-medium tracking-wide">Mobile Design</span>
+                        <span className="px-3 py-1 text-xs bg-[#132D47]/60 text-[#59DDD5] rounded-full font-medium tracking-wide">Design Systems</span>
+                        <span className="px-3 py-1 text-xs bg-[#132D47]/60 text-[#59DDD5] rounded-full font-medium tracking-wide">User Research</span>
+                        <span className="px-3 py-1 text-xs bg-[#132D47]/60 text-[#59DDD5] rounded-full font-medium tracking-wide">Prototyping</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              {/* Experience Entry 2 */}
               <a href="https://www.ascendfs.com/" target="_blank" rel="noopener noreferrer" className="block">
                 <div className="group relative p-6 rounded-lg border border-transparent transition-all duration-300 hover:bg-white/[0.02] hover:backdrop-blur-sm hover:border-white/[0.08] hover:shadow-md hover:shadow-black/10">
                   <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 lg:items-start">
                     <div className="w-full lg:w-24 flex-shrink-0">
-                      <p className="text-xs text-[#94A3B8] lg:whitespace-nowrap lg:pt-1">2024 — PRESENT</p>
+                      <p className="text-xs text-[#94A3B8] lg:whitespace-nowrap lg:pt-1">2023 — 2025</p>
                     </div>
                     <div className="flex-1">
                       <div className="flex flex-col lg:flex-row lg:items-center gap-1 lg:gap-2 mb-2">
